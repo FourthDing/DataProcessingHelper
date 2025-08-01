@@ -1,0 +1,8 @@
+{
+	"name": "Data processing helper",
+	"references": [
+		"UnityEngine.UI",
+		"Unity.TextMeshPro",
+		"Unity.Mathematics"
+	]
+}

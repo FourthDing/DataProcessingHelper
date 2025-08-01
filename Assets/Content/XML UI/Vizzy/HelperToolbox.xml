@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VizzyToolbox>
+    <Colors>
+        <Color id="ExternalDataProcessing" color="#ff6700" />
+    </Colors>
+    <Styles>
+        <Style id="named-data-in-json-expression" color="ExternalDataProcessing" format="get named property (0) from JSON (1)" tooltip="Get specific property from JSON external data as plain text." />
+    </Styles>
+    <Categories>
+        <Category name="External Data Processing" icon="Data processing helper/Sprites/ModPic">
+            <NamedDataInJson style="named-data-in-json-expression">
+                <Constant text="name" />
+                <Constant text="{'name':'123456'}" />
+            </NamedDataInJson>
+        </Category>
+    </Categories>
+</VizzyToolbox>

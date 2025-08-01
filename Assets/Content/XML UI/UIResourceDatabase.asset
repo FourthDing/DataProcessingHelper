@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 462600611, guid: a67a49df4508efd41b25d5ea1d54bed1, type: 3}
+  m_Name: UIResourceDatabase
+  m_EditorClassIdentifier: 
+  PathPrefix: Data processing helper/
+  MonitorContainingFolder: 1
+  folders:
+  - Content/XML UI
+  AutomaticallyRemoveEntries: 1
+  entries:
+  - path: Data processing helper/DataProcessingHelper_Vizzy
+    resource: {fileID: 4900000, guid: d43cf021cc334b34fbff57eb21fa1fb0, type: 3}
+  - path: Data processing helper/Sprites/ModPic
+    resource: {fileID: 21300000, guid: 83a9b69768f832e418db73b367575c08, type: 3}
+  - path: Data processing helper/Sprites/Svg/ModPic
+    resource: {fileID: 102900000, guid: 2f7a667a4e09b3f4d9fc9df1744db4c3, type: 3}
+  - path: Data processing helper/UIResourceDatabase
+    resource: {fileID: 11400000}
+  - path: Data processing helper/Vizzy/HelperToolbox
+    resource: {fileID: 4900000, guid: 1fc9064312900e74191d2bdc3b0388f0, type: 3}
