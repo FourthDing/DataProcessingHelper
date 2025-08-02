@@ -5,6 +5,7 @@
     </Colors>
     <Styles>
         <Style id="named-data-in-json-expression" color="ExternalDataProcessing" format="get named property (0) from JSON (1)" tooltip="Get specific property from JSON external data as plain text." />
+        <Style id="separate-string-edph" color="ExternalDataProcessing" format="separate string (0) by separator (1)" tooltip="Another tool to separate strings into lists." />
     </Styles>
     <Categories>
         <Category name="External Data Processing" icon="Data processing helper/Sprites/ModPic">
@@ -12,6 +13,10 @@
                 <Constant text="name" />
                 <Constant text="{'name':'123456'}" />
             </NamedDataInJson>
+            <SeparateString-DPH style="separate-string-edph">
+                <Constant text="{'name':'123456'}" />
+                <Constant text="}" />
+            </SeparateString-DPH>
         </Category>
     </Categories>
 </VizzyToolbox>

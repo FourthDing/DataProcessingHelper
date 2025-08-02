@@ -63,7 +63,8 @@ namespace Assets.Scripts
             //RegisterVizzyBlocks();
             AppendedVizzyBlocks = new Dictionary<string, (Type, Func<ProgramNode>)>()
             {
-                [NamedDataInJsonExpression.XmlName] = (typeof(NamedDataInJsonExpression), () => new NamedDataInJsonExpression())
+                [NamedDataInJsonExpression.XmlName] = (typeof(NamedDataInJsonExpression), () => new NamedDataInJsonExpression()),
+                [SeparateString2List.XmlName] = (typeof(SeparateString2List), () => new SeparateString2List())
             };
             VizzyToolboxColorsField =
                 typeof(VizzyToolbox).GetField("_colors", BindingFlags.NonPublic | BindingFlags.Instance);
